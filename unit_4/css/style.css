@@ -1,0 +1,22 @@
+header {
+	text-align: center;
+}
+h1 {
+	font-family: "Crafty Girls", Helvetica;
+	text-align: center;
+	font-size: 20px;
+}
+#slogan {
+	color: #E80C7A;
+}
+footer {
+	text-align: center;
+	font-family: "Open Sans", Helvetica;
+	font-size: 18px;
+}
+#contact {
+	color: #00DFFF;
+}
+body {
+	text-align: center;
+}
