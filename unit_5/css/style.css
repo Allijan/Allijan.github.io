@@ -1,0 +1,25 @@
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav {
+	background-color: #e8c66a;
+	border: 1px black solid;
+	padding: 20px;
+}
+section {
+	border: 1px black solid;
+	padding: 20px;
+}
+#one {
+	background-color: #ffc675;
+}
+#two {
+	background-color: #e89c6c;
+}
+footer {
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
