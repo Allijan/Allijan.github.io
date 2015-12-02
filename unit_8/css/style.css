@@ -1,0 +1,92 @@
+body {
+	padding: 20px;
+	margin: 100px;
+	background-color: #ffffff;
+}
+header{
+	text-align: center;
+}
+img {
+	text-align: center;
+}
+nav {
+	text-align: center;
+	padding: 1em 0;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin: 1em;
+  	font-size: 18px;
+  	text-transform: uppercase;
+}
+a:hover {
+	color: #d4d4d4;
+}
+#hero {
+	width:100%;
+}
+#mission {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+/*.clearfix:after {
+	visibility: hidden;
+	content: " ";
+	clear: both;*/
+}
+#two {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background: #ffffff;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: bold;
+	padding: 20px
+}
+p {
+	display: inline-block;
+	margin: 1em;
+	font-size: 1em; 
+}
+footer {
+	font-family: 'Montserrat', sans-serif;
+	background: gray;
+	text-decoration: none;
+	padding-top: 20px;
+	color: black;
+	}
+	#class {
+		text-align: center;
+	}
+	#sca {
+		font-size: .75em;
+		text-decoration: none;
+	}
+@media only screen and (max-width: 860px) {
+	#background {
+		width: 100%;
+	}
+	body {
+		padding: 20px;
+		margin: 20px;
+	}
+	nav {
+		text-align: center;
+	}
+	nav a {
+		line-height: 2;
+	}
+}
+@media only Screen and (max width: 760px){
+	nav {   
+	}
+	#mission {
+		font-size: .50%;
+	}
+
+}
