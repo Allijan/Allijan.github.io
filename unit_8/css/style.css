@@ -1,7 +1,9 @@
 body {
 	padding: 20px;
-	margin: 100px;
+	max-width: 1500px
+	width: 80%;
 	background-color: #ffffff;
+	margin: 0 auto;
 }
 header{
 	text-align: center;
@@ -22,6 +24,9 @@ nav a {
   	font-size: 18px;
   	text-transform: uppercase;
 }
+#menu {
+	display: none;
+}
 a:hover {
 	color: #d4d4d4;
 }
@@ -33,11 +38,6 @@ a:hover {
 	font-size: 18px;
 	text-transform: uppercase;
 	text-align: center;
-}
-/*.clearfix:after {
-	visibility: hidden;
-	content: " ";
-	clear: both;*/
 }
 #two {
 	font-family: 'Montserrat', sans-serif;
@@ -55,17 +55,28 @@ p {
 }
 footer {
 	font-family: 'Montserrat', sans-serif;
-	background: gray;
+	background: #cccccc;
 	text-decoration: none;
 	padding-top: 20px;
 	color: black;
+	}
+footer a {
+		color: black;
+		text-decoration: none;
 	}
 	#class {
 		text-align: center;
 	}
 	#sca {
-		font-size: .75em;
+		padding: 1em 0;
+		margin: 0;
+		text-align: right;
+		display: block;
+	}
+	#sca a {
+		font-size: .5em;
 		text-decoration: none;
+		color: #cccccc;
 	}
 @media only screen and (max-width: 860px) {
 	#background {
@@ -82,8 +93,17 @@ footer {
 		line-height: 2;
 	}
 }
-@media only Screen and (max width: 760px){
-	nav {   
+@media only screen and (max-width: 760px) {
+	nav a{ 
+	display: none;  
+	}
+	#menu {
+		display: block;
+		font-size:  2em;
+		margin: 0;
+	}
+	nav:hover a{
+		display: block;
 	}
 	#mission {
 		font-size: .50%;
