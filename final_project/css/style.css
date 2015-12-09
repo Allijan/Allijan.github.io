@@ -1,0 +1,133 @@
+body {
+	padding: 20px;
+	max-width: 1500px
+	width: 80%;
+	background-color: #ffffff;
+	margin: 0 auto;
+}
+header{
+	text-align: center;
+}
+img {
+	text-align: center;
+}
+nav {
+	text-align: center;
+	padding: 1em 0;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin: 1em;
+  	font-size: 18px;
+  	text-transform: uppercase;
+}
+#menu {
+	display: none;
+}
+a:hover {
+	color: #d4d4d4;
+}
+#hero {
+	width:100%;
+}
+#mission {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-align: center;
+}
+#two {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	background: #ffffff;
+	font-size: 18px;
+	line-height: 1.5;
+	font-weight: bold;
+	padding: 20px
+}
+p {
+	display: inline-block;
+	margin: 1em;
+	font-size: 1em; 
+}
+footer {
+	font-family: 'Montserrat', sans-serif;
+	background: #cccccc;
+	text-decoration: none;
+	padding-top: 20px;
+	color: black;
+	}
+footer a {
+		color: black;
+		text-decoration: none;
+	}
+	#class {
+		text-align: center;
+	}
+	#sca {
+		padding: 1em 0;
+		margin: 0;
+		text-align: right;
+		display: block;
+	}
+	#sca a {
+		font-size: .5em;
+		text-decoration: none;
+		color: #cccccc;
+	}
+@media only screen and (max-width: 860px) {
+	#background {
+		width: 100%;
+	}
+	body {
+		padding: 20px;
+		margin: 20px;
+	}
+	nav {
+		text-align: center;
+	}
+	nav a {
+		line-height: 2;
+	}
+}
+@media only screen and (max-width: 760px) {
+	nav a{ 
+	display: none;  
+	}
+	#menu {
+		display: block;
+		font-size:  2em;
+		margin: 0;
+	}
+	nav:hover a{
+		display: block;
+	}
+	#mission 
+		font-size: .50%;
+	}
+
+}
+@media only screen and (mid-width: 1080px) {
+	section #office {
+		width: 25%;
+		float: left;
+	}
+}
+img #office_pics {
+	width: 270px;
+}
+#locations {
+	text-align: center;
+	line-height: 1.5;
+}
+#brands {
+	width: 33.3%;
+	}
+}
+#sportswear {
+	font-family: 'Montserrat', sans-serif;
+	font-height: 1.5;
+}
