@@ -55,7 +55,6 @@ p {
 }
 footer {
 	font-family: 'Montserrat', sans-serif;
-	background: #cccccc;
 	text-decoration: none;
 	padding-top: 20px;
 	color: black;
@@ -77,6 +76,90 @@ footer a {
 		font-size: .5em;
 		text-decoration: none;
 		color: #cccccc;
+	}
+	.office_pics {
+	width: 24%;
+	float: left;
+	padding: .25em;
+
+	} 
+	#about_evy {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1em;
+		text-align: center;
+	}
+	#locations {
+		text-align: center;
+		line-height: 1.5;
+	}
+	#brands img {
+		width: 33.333%;
+		float: left;
+	}
+	#licensees img {
+		width: 100%;
+	}
+	#girlsdiv {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 27px;
+		font-color: #AAAAAA;
+		background-color: #54FAFF;
+	}
+	#evy_dress img {
+		width: 50%;
+	}
+	#girltalk {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		font-color: #A8A8A8;
+		width: 50%;
+		margin: 1em;
+		float: right;
+		clear: both;
+	}
+	#boytalk {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		width: 50%;
+		margin: 1em;
+		float: left;
+		clear: both;
+	}
+	#boysdiv {
+		clear: both;
+		font-family: 'Montserrat', sans-serif;
+		text-align: right;
+		font-size: 27px;
+		background-color: #FFFE3A;
+	}
+	#boom_shirt img {
+		float: right;
+		text-align: right;
+		clear: both;
+	}
+	#sleepweardiv {
+		clear: both;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 27px;
+		background-color: #54FAFF;
+	}
+	#sleeptalk {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		width: 50%;
+		margin: 1em;
+		float: right;
+		clear: both;
+	}
+	#twitterfeed {
+		text-align: center;
+		background-color: #cccccc;
+		padding-top: 2em;
+	}
+	#sportswear {
+		font-family: 'Montserrat', sans-serif;
+		font-height: 1.5;
+		text-align: center;
 	}
 @media only screen and (max-width: 860px) {
 	#background {
@@ -118,16 +201,3 @@ footer a {
 }
 img #office_pics {
 	width: 270px;
-}
-#locations {
-	text-align: center;
-	line-height: 1.5;
-}
-#brands {
-	width: 33.3%;
-	}
-}
-#sportswear {
-	font-family: 'Montserrat', sans-serif;
-	font-height: 1.5;
-}
