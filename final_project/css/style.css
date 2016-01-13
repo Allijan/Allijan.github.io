@@ -99,58 +99,41 @@ footer a {
 	#licensees img {
 		width: 100%;
 	}
-	#girlsdiv {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 27px;
-		font-color: #AAAAAA;
-		background-color: #54FAFF;
-	}
 	#evy_dress img {
 		width: 50%;
 	}
-	#girltalk {
+
+	#divisions section img {
+		width: 40%;
+	}
+	#divisions section p {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 18px;
 		font-color: #A8A8A8;
 		width: 50%;
 		margin: 1em;
 		float: right;
-		clear: both;
 	}
-	#boytalk {
+	#divisions section h1 {
 		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
-		width: 50%;
-		margin: 1em;
-		float: left;
-		clear: both;
-	}
-	#boysdiv {
-		clear: both;
-		font-family: 'Montserrat', sans-serif;
-		text-align: right;
 		font-size: 27px;
+		font-color: #AAAAAA;
+		background-color: #54FAFF;
+		clear: both;
+	}
+	
+	#divisions section.alternate img {
+		float: right;
+	}
+
+	#divisions section.alternate p {
+		float: left;
+	}
+
+	#divisions section.alternate h1 {
 		background-color: #FFFE3A;
 	}
-	#boom_shirt img {
-		float: right;
-		text-align: right;
-		clear: both;
-	}
-	#sleepweardiv {
-		clear: both;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 27px;
-		background-color: #54FAFF;
-	}
-	#sleeptalk {
-		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
-		width: 50%;
-		margin: 1em;
-		float: right;
-		clear: both;
-	}
+
 	#twitterfeed {
 		text-align: center;
 		background-color: #cccccc;
@@ -188,10 +171,18 @@ footer a {
 	nav:hover a{
 		display: block;
 	}
-	#mission 
+	#mission {
 		font-size: .50%;
 	}
-
+	#divisions section img, #divisions section.alternate img {
+		width: auto;
+		display: block;
+		margin: auto;
+		float: none;
+	}
+	#divisions section p {
+		width: auto;
+	}
 }
 @media only screen and (mid-width: 1080px) {
 	section #office {
@@ -201,3 +192,6 @@ footer a {
 }
 img #office_pics {
 	width: 270px;
+}
+
+
